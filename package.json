@@ -1,0 +1,29 @@
+{
+  "name": "node-grpc",
+  "version": "1.0.0",
+  "description": "implementing grpc with nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajatk-31/node-grpc.git"
+  },
+  "keywords": [
+    "node",
+    "grpc",
+    "node-grpc"
+  ],
+  "author": "rajatk-31",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajatk-31/node-grpc/issues"
+  },
+  "homepage": "https://github.com/rajatk-31/node-grpc#readme",
+  "dependencies": {
+    "grpc": "^1.24.11",
+    "uuid": "^8.3.2"
+  }
+}
